@@ -1,0 +1,41 @@
+<div style="background-image: url(../assets/admission.jpg); height: 250px; background-size: 100% auto;">
+   <h4 class="p-3" style="border-radius: 35%; position: relative; top: 50%; left: 40%;color:blue; background-color: aliceblue;width: 135px;">
+     Admisson</h4></div>
+     <div class="container" >
+        <h3 style="text-align: center;">Arena Academy Sports Shine Course</h3><br><br>
+     <pre  class="p-5" style="font-size: large; font-family:'Times New Roman', Times, serif; background-color: bisque; border-radius: 25%; width: 850px;">
+There are many deserving and persistent student-athletes who want to make their mark and gain 
+world-class exposure in their field of sports. Most of these young athletes are not aware of 
+how they can truly be an asset to the top world-class universities abroad. The Arena Academy 
+in association with Arena Sports Academy is committed to creating an active and vibrant 
+student community.Through Arena Sports Shine course,we offer a flexible educational curriculum
+that provides a tailor-made academic schedule to athletes, built around their sporting commits.
+We encourage & provide means to our students, from Grade 6 to Grade 12, to balance their pursuit
+for sporting excellence without compromising on their academics. We create lifelong learners who
+can balance sports as well as academics
+     </pre>
+    </div><br>
+    <div class="container" style="padding: 20px; position: absolute;top: 50%;left: 65%; background-color: red;color: aliceblue;width: 30%;">
+        <label for="name">STUDENT NAME:</label>
+        <input type="text" class="form-control" id="name" name="Name" [(ngModel)]="Name" required><br>
+        <label for="num">CONTACT NUMBER:</label>
+        <input type="text" class="form-control" id="num" name="Number" [(ngModel)]="Number"required><br>
+        <label for="dob">E-mail:</label>
+        <input type="email" class="form-control" id="dob" name="email" [(ngModel)]="Email" required><br>
+        <label for="city">CITY:</label>
+        <input type="text" class="form-control" id="city" name="City" [(ngModel)]="City" required><br>
+        <label for="interest">WHICH SPORTS ARE YOU INTERESTED IN: </label>
+        <input type="text" class="form-control" id="interest" name="Sports" [(ngModel)]="Sports" required><br>
+        <button type="submit" class="btn btn-success" (click)="Admission()">Submit</button>
+    </div>
+    <h5 class="ms-5">We are currently offering our academic integrated course in following Sports:</h5>
+    <div style="text-align: center;" class="row m-3">
+    <div style="text-align: center;" class="col-2 p-3 m-3" style="background-color: gray;">Football</div>
+    <div style="text-align: center;" class="col-2 p-3 m-3" style="background-color: gray;">Cricket</div>
+    <div style="text-align: center;" class="col-2 p-3 m-3" style="background-color: gray;">Volleyball</div>
+    </div> 
+    <div class="row m-3">
+    <div s class="col-2 p-3 m-3"  style="background-color: gray; text-align: center;">Chess</div>
+    <div  class="col-2 p-3 m-3" style="background-color: gray; text-align: center">Carrom</div>
+    <div  class="col-2 p-3 m-3" style="background-color: gray; text-align: center">Table tennis</div>
+</div>
